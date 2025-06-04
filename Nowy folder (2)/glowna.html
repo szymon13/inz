@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wydarzenie MotoR§EX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background: url('banner.jpg') center/cover no-repeat;
+      text-align: center;
+      padding: 80px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #fff;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    nav {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #FFD700;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .main-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #1a1a1a;
+    }
+
+    .option-box {
+      background: #222;
+      border: 2px solid #FFD700;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.2s;
+    }
+
+    .option-box:hover {
+      transform: scale(1.05);
+      background: #333;
+    }
+
+    .option-box a {
+      text-decoration: none;
+      color: #FFD700;
+      display: block;
+    }
+
+    .formuly-section {
+      background-color: #111;
+      padding: 20px;
+    }
+
+    .formuly-section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #FFD700;
+    }
+
+    .formuly-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .formuly-card {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: left;
+      border: 2px solid #FFD700;
+    }
+
+    .formuly-card h3 {
+      color: #FFD700;
+      margin-top: 0;
+    }
+
+    .formuly-card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MotoR§EX Wydarzenie Główne</h1>
+  </header>
+  <nav>
+    <a href="pakiet.html">PAKIET INFORMACJI</a>
+    <a href="wiadomosci.html">WIADOMOŚCI</a>
+    <a href="cennik.html">CENNIK</a>
+    <a href="serie.html">SERIE</a>
+  </nav>
+  <section class="main-options">
+    <div class="option-box">
+      <a href="rejestracja.html">
+        <h3>Rejestracja</h3>
+      </a>
+    </div>
+    <div class="option-box">
+      <a href="panel.html">
+        <h3>Panel użytkownika</h3>
+      </a>
+    </div>
+    <div class="option-box">
+      <a href="podglad.html">
+        <h3>Podgląd wydarzenia</h3>
+      </a>
+    </div>
+    <div class="option-box">
+      <a href="wyniki.html">
+        <h3>Wyniki</h3>
+      </a>
+    </div>
+  </section>
+  <section class="formuly-section">
+    <h2>AKTUALNOŚCI MOTOCYKLOWE</h2>
+    <div class="formuly-grid">
+      <div class="formuly-card">
+        <h3>Nowy model KTM 450 EXC 2025</h3>
+        <p>KTM zapowiedział nową wersję swojego flagowego enduro z ulepszonym zawieszeniem i elektroniką.</p>
+      </div>
+      <div class="formuly-card">
+        <h3>Motocross GP w Polsce</h3>
+        <p>Polska po raz kolejny będzie gospodarzem rundy Motocross Grand Prix – zawody już w czerwcu!</p>
+      </div>
+      <div class="formuly-card">
+        <h3>Honda CRF250RX – test terenowy</h3>
+        <p>Nowa CRF250RX świetnie radzi sobie w trudnym terenie. Sprawdziliśmy jej osiągi w praktyce.</p>
+      </div>
+      <div class="formuly-card">
+        <h3>Yamaha prezentuje system Y-Connect</h3>
+        <p>System łączności Y-Connect pozwala na monitorowanie parametrów motocykla z poziomu smartfona.</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
